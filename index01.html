@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Zelo Corp | Recrutement</title>
+		<style>
+		* { box-sizing: border-box; }
+
+		body {
+			margin: 0;
+			background: #080810;
+			color: white;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			padding: 22px 8%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-bottom: 1px solid #29213f;
+		}
+
+		.logo {
+			font-size: 27px;
+			font-weight: bold;
+			color: #a56aff;
+		}
+
+		nav a {
+			color: white;
+			text-decoration: none;
+			margin-left: 20px;
+		}
+
+		.hero {
+			text-align: center;
+			padding: 100px 20px;
+			background: radial-gradient(ellipse, #38205e, #080810 70%);
+		}
+
+		.hero h1 {
+			font-size: clamp(38px, 7vw, 70px);
+			margin: 10px;
+		}
+
+		.purple { color: #a56aff; }
+
+		.hero p {
+			color: #c9c5d8;
+			line-height: 1.7;
+		}
+
+		.btn {
+			display: inline-block;
+			margin-top: 20px;
+			padding: 15px 25px;
+			border-radius: 8px;
+			background: #783cff;
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		section {
+			padding: 55px 8%;
+		}
+
+		h2 { text-align: center; }
+
+		.cards {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			gap: 18px;
+			margin-top: 30px;
+		}
+
+		.card {
+			background: #11111c;
+			border: 1px solid #352653;
+			border-radius: 12px;
+			padding: 25px;
+			text-align: center;
+		}
+
+		.card h3 { color: #b48aff; }
+
+		li {
+			margin: 12px 0;
+			color: #d6d1e2;
+		}
+
+		.cta {
+			text-align: center;
+			background: #110d1d;
+		}
+
+		footer {
+			padding: 25px;
+			text-align: center;
+			color: #999;
+			border-top: 1px solid #29213f;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="logo">ZELO CORP</div>
+			<nav>
+				<a href="#team">La team</a>
+				<a href="#postes">Postes</a>
+				<a href="#conditions">Conditions</a>
+			</nav>
+		</header>
+		<div class="hero">
+			<p class="purple">ROCKET LEAGUE ESPORT</p>
+			<h1>REJOINS LA <span class="purple">ZELO CORP</span></h1>
+			<p>
+				Tu veux progresser, rencontrer des joueurs motivés
+				et participer à un projet esport ?<br>
+				Notre recrutement est ouvert !
+			</p>
+
+			<a class="btn"
+		   href="https://discord.gg/9QEAWvfn5"
+		   target="_blank">
+		   POSTULER MAINTENANT
+			</a>
+		</div>
+		<section id="team">
+		<h2>QUI SOMMES-NOUS ?</h2>
+			<p style="text-align:center;line-height:1.8;color:#c9c5d8">
+				La Zelo Corp est une team Rocket League qui souhaite
+				rassembler des joueurs sérieux, motivés et respectueux.
+				Notre objectif : progresser ensemble et construire un
+				projet ambitieux.
+			</p>
+			<div class="cards">
+				<div class="card">
+					<h3>🎮 Compétition</h3>
+					<p>Des joueurs motivés pour progresser.</p>
+				</div>
+				<div class="card">
+					<h3>🤝 Esprit d'équipe</h3>
+					<p>Respect, communication et entraide.</p>
+				</div>
+				<div class="card">
+					<h3>🏆 Ambition</h3>
+					<p>Des objectifs et des projets communs.</p>
+				</div>
+			</div>
+		</section>
+		<section id="postes">
+		<h2>LES <span class="purple">RECRUTEMENTS</span></h2>
+			<div class="cards">
+				<div class="card">
+					<h3>🎮 Joueurs</h3>
+					<p>Joueurs Rocket League motivés pour évoluer en équipe.</p>
+				</div>
+				<div class="card">
+					<h3>🛡️ Staff</h3>
+					<p>Modérateurs et responsables pour encadrer la team.</p>
+				</div>
+				<div class="card">
+					<h3>🎨 Créateurs</h3>
+					<p>Graphistes, monteurs et créateurs de contenu.</p>
+				</div>
+				<div class="card">
+					<h3>📅 Événements</h3>
+					<p>Organisation de tournois et d'activités communautaires.</p>
+				</div>
+			</div>
+		</section>
+		<section id="conditions">
+		<h2>LES CONDITIONS</h2>
+			<ul>
+				<li>Être motivé et actif.</li>
+				<li>Respecter les autres membres.</li>
+				<li>Savoir communiquer et travailler en équipe.</li>
+				<li>Être prêt à s'investir dans le projet.</li>
+				<li>Accepter le règlement de la team.</li>
+			</ul>
+		</section>
+		<section class="cta">
+		<h2>PRÊT À NOUS REJOINDRE ?</h2>
+			<p>Rejoins notre Discord et ouvre une candidature !</p>
+			<a class="btn"
+		   href="https://discord.gg/9QEAWvfn5"
+		   target="_blank">
+		   REJOINDRE LE DISCORD
+			</a>
+		</section>
+		<footer>
+		© Zelo Corp — Rocket League Esport
+		</footer>
+	</body>
+</html>
